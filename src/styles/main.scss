@@ -1,0 +1,119 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 36px;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a a a a"
+                         "a a a a"
+                         "b b c c"
+                         "d e f g"
+                         "h h i j"
+                         "k k l l";
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-item-main {
+    background-image: url('../img/bg-main.png');
+    grid-area: a;
+    height: 680px;
+    padding-top: 221px;
+    padding-left: 209px;
+        h1 {
+            line-height: 86px;
+            letter-spacing: -1.9px;
+            font-size: 72px;
+            font-weight: 400;
+        }
+        p {
+            margin-top: -18px;
+            line-height: 43px;
+            font-size: 30px;
+            letter-spacing: -0.7px;
+        }
+}
+
+.grid-item-red {
+    height: 500px;
+    background-image: url('../img/bg-red.png');
+    grid-area: b;
+    
+}
+.grid-item-lgray {
+    height: 500px;
+    background-color: #f3f1ef;
+    grid-area: c;
+    display: block;
+}
+.grid-item-pic1 {
+    display: block;
+    height: 522px;
+    background-image: url('../img/bg-one.png');
+    grid-area: d;
+}
+.grid-item-pic2 {
+    display: block;
+    height: 522px;
+    background-image: url('../img/bg-two.png');
+    grid-area: e;
+}
+.grid-item-pic3 {
+    display: block;
+    height: 522px;
+    background-image: url('../img/bg-three.png');
+    grid-area: f;
+}
+.grid-item-pic4 {
+    display: block;
+    height: 522px;
+    background-image: url('../img/bg-four.png');
+    grid-area: g;
+}
+.grid-item-blue-text {
+    height: 500px;
+    grid-area: h;
+}
+.grid-item-pic5 {
+    height: 500px;
+    background-image: url('../img/bg-five.png');
+    grid-area: i;
+}
+.grid-item-bluebg {
+    height: 500px;
+    background-color: #3f729b;
+    grid-area: j;
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+}
+.grid-item-green {
+    height: 515px;
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: k;
+}
+.grid-item-gray {
+    height: 515px;
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: l;
+}
